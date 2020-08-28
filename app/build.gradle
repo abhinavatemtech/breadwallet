@@ -76,7 +76,7 @@ android {
             applicationId = "com.breadwallet"
             dimension "mode"
             resValue "string", "app_name", "BRD"
-            buildConfigField "boolean", "BITCOIN_TESTNET", "false"
+            buildConfigField "boolean", "BITCOIN_TESTNET", "true"
             // Uncomment to fake sign a mainnet release build for testing.
             missingDimensionStrategy 'network', 'onMainnet'
         }
@@ -95,7 +95,7 @@ android {
 
         explainIssues true
         // if true, stop the gradle build if errors are found
-        abortOnError true
+        abortOnError false
         // if true, only report errors
         ignoreWarnings false
 

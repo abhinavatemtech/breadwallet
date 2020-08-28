@@ -161,6 +161,7 @@ class BreadApp : Application(), KodeinAware {
                 "bitcoin-testnet:__native__",
                 "ethereum-ropsten:__native__",
                 "ethereum-ropsten:0x558ec3152e2eb2174905cd19aea4e34a23de9ad6"
+                // "ethereum-ropsten:0xbbd912bd8fd36b5b2d2ebd7c13781e387bb1748d"
             )
             else -> listOf(
                 "bitcoin-mainnet:__native__",
